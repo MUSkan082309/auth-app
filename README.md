@@ -23,26 +23,26 @@ A full-stack authentication application built using the **MERN stack** — featu
 ## 📁 Folder Structure
 
 mern-auth-secure/
-├── client/ # React frontend
-│ ├── public/
-│ ├── src/
-│ │ ├── assets/
-│ │ ├── components/
-│ │ ├── context/
-│ │ ├── pages/
-│ │ ├── App.jsx
-│ │ └── main.jsx
-│ ├── package.json
-│ └── vite.config.js
+├── client/                 # React frontend
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── context/
+│   │   ├── pages/
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   ├── package.json
+│   └── vite.config.js
 │
-├── server/ # Node/Express backend
-│ ├── config/
-│ ├── controllers/
-│ ├── connectDB.js
-│ ├── server.js
-│ ├── nodemailer.js
-│ ├── package.json
-│ └── .env
+├── server/                 # Node/Express backend
+│   ├── config/
+│   ├── controllers/
+│   ├── connectDB.js
+│   ├── server.js
+│   ├── nodemailer.js
+│   ├── package.json
+│   └── .env
 │
 └── README.md
 
