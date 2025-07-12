@@ -22,6 +22,7 @@ A full-stack authentication application built using the **MERN stack** — featu
 
 ## 📁 Folder Structure
 
+<pre>
 mern-auth-secure/
 ├── client/                 # React frontend
 │   ├── public/
@@ -45,7 +46,7 @@ mern-auth-secure/
 │   └── .env
 │
 └── README.md
-
+</pre>
 
 ---
 
