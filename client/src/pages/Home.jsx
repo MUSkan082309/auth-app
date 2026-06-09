@@ -2,6 +2,7 @@ import React, { useEffect, useContext } from 'react';
 import Navbar from '../components/Navbar';
 import Header from '../components/Header';
 import { AppContent } from '../context/AppContext';
+import bg_img from '../assets/bg_img.png';
 
 const Home = () => {
   const { userData } = useContext(AppContent);
@@ -12,8 +13,12 @@ const Home = () => {
 
   return (
     <div className="relative min-h-screen flex flex-col bg-gradient-to-b from-white via-sky-100 to-blue-200">
+      
       {/* Background image overlay */}
-      <div className="absolute inset-0 z-0 bg-[url('/bg_img.png')] bg-cover bg-center opacity-20 blur-sm"></div>
+      <div
+        className="absolute inset-0 z-0 bg-cover bg-center opacity-20 blur-sm"
+        style={{ backgroundImage: `url(${bg_img})` }}
+      ></div>
 
       {/* Content wrapper */}
       <div className="relative z-10 flex flex-col items-center justify-start pt-24 px-4">
