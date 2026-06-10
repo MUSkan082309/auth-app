@@ -16,7 +16,10 @@ connectDB();
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-  origin: "http://localhost:5173",           // You can specify your frontend origin here instead of `true`
+  origin: [
+    "http://localhost:5173",
+    "https://auth-app-client-theta.vercel.app"
+  ],
   credentials: true
 }));
 
